@@ -1,0 +1,26 @@
+.pagination{
+    display: inline-flex;
+    list-style-type: none;
+    border: 2px solid #ddd;
+    align-items: center;
+    padding-left: 0;
+    li{
+        padding: 2px 8px;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-bottom: none;
+        a{
+            text-decoration: none;
+            color: #000;
+            :active{
+                color: green;
+            }
+        }
+    }
+    button{
+        background: none;
+        border: none;
+        font-weight: bold;
+        color: green;
+    }
+}

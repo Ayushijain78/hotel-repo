@@ -1,0 +1,30 @@
+.square{
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        resize: none;
+    }
+}
+.status{
+    text-align: center;
+    margin-top: 300px;
+}
